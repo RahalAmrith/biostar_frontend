@@ -1,0 +1,153 @@
+.Landing_main {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #000000, #000000);
+}
+
+.land_top_banner{
+  text-align: center;
+  height: 40px;
+  font-size: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.land_top_banner h1{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.land_headerImage {
+  width: 100%;
+}
+
+.land_headerImage img {
+  width: 100%;
+}
+
+.land_form_container {
+  /* background-color: tomato; */
+  color: #ffffff;
+  padding-top: 55px;
+}
+
+.land_form_container h1 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.land_form{
+padding: 0px;
+}
+
+.land_form .form-group {
+  margin-bottom: 10px;
+  padding: 0px 1rem;
+  color: #ffffff;
+  padding: 0px;
+}
+
+.land_form .form-group label {
+  height: 24px;
+  margin: 0px;
+  margin-left: 0.8rem;
+  position: relative;
+  transform: translateY(12px);
+  background-color: #000000;
+  z-index: 250;
+  padding: 5px;
+}
+
+.land_form .form-group input,
+.land_form .form-group select {
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  position: relative;
+  z-index: 200;
+  color: #ffffff;
+  font-size: 0.875rem;
+  padding-top: 5px;
+}
+.land_form .form-group select option {
+  color: #000000;
+  background-color: transparent;
+}
+
+.land_form .form-group h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+  transform: translateY(15px);
+  background-color: #000000;
+  padding: 0px 15px;
+  width: fit-content;
+}
+
+.land_form .form-group hr {
+  border-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 38px;
+}
+
+.land_form .form-group p {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+}
+
+.land_form .form-group button {
+  background: #ff0000;
+  border-radius: 3px;
+  opacity: 1;
+  width: 187px;
+  height: 37px;
+  border: none;
+  margin-top: 15px;
+}
+
+.land_cover{
+  margin-top: 35px;
+
+}
+
+.land_footer {
+  margin-top: 35px;
+  color: #ffffff;
+}
+
+.land_footer h4 {
+  margin-bottom: 20px;
+}
+
+.land_footer ul {
+  list-style: none;
+}
+
+.land_footer ul li a {
+  color: #ffffff;
+}
+
+
+.land_footer hr{
+  border-color: #FFFFFF;
+  margin-bottom: 55px;
+}
+
+
+.land_footer i{
+  margin: 10px;
+color: #FFFFFF;
+}
+/* chinsese   footer*/
+
+._chinese_footer_class a { 
+  letter-spacing: 1px;
+  line-height: 25px ;
+}

@@ -1,0 +1,49 @@
+.ls_headding {
+  margin-bottom: 50px;
+}
+.ls_form {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ls_form label {
+  width: 150px;
+  display: inline-block;
+  height: 35px;
+}
+
+.ls_form input {
+  margin-right: 25px;
+  width: calc(((100% - 150px) / 2) - 205px);
+  height: 35px;
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 0px 10px;
+}
+
+.ls_form button {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ls_delBtn {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0px 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.ls_downloadBtn {
+  background-color: #243b55;
+  margin: 0px 15px 15px 0px;
+  padding: 0px 15px;
+  color: #ffffff;
+  border: none;
+  float: right;
+  cursor: pointer;
+}

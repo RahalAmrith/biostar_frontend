@@ -1,0 +1,51 @@
+.SideBar_main {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100vh;
+  background: linear-gradient(to top, #141e30, #243b55);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 25px;
+}
+
+.sb_logo {
+  width: 100%;
+  height: 75px;
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
+.sb_links {
+  color: #ffffff;
+  list-style: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sb_links li {
+  display: block;
+  padding: 5px 0px 5px 25px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.sb_sublist li:hover {
+  background-color: #00000088;
+}
+
+.sb_sublist{
+}
+
+.sb_sublist li{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.sb_sublist li a{
+ text-decoration: none;
+ color: #FFFFFF;
+}
