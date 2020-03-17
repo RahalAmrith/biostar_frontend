@@ -32,6 +32,8 @@ class Navbar extends Component {
     var content = Language.getcontent(this.props.language);
 
     return (
+
+
       <nav className="sd_navbar">
         {/* navbar toggle button */}
         <button
@@ -53,7 +55,67 @@ class Navbar extends Component {
               : "sd_nav_linkContainer hide"
           }
         >
-          <ul className="">
+
+
+    {this.props.language === 'EN' ? (  <ul className="">
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/tw/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/">
+              {content._nav_product}
+              </a>
+            </li>
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/tw/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/">
+              {content._nav_support}
+              </a>
+            </li>
+            <li className="">
+              <a className="" href="https://www.biostar.com.tw/app/en/news/index.php">
+              {content._nav_news}
+              </a>
+            </li>
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/tw/award/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/award/index.php">
+              {content._nav_award}
+
+              </a>
+            </li>
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/en/blog/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/blog/index.php">
+              {content._nav_blog}
+
+              </a>
+            </li>
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/tw/wheretobuy/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/wheretobuy/index.php">
+              {content._nav_where_to_buy}
+              </a>
+            </li>
+
+            <li className="">
+              {/* <a className="" href="https://www.biostar.com.tw/app/tw/index.php"> */}
+              <a className="" href="https://www.biostar.com.tw/app/en/">
+              {content._nav_about}
+
+              </a>
+            </li>
+
+            <li className="">
+              <select className="_lang_toggle" defaultValue={this.props.language} onChange={(e) => { this.props.setLan(e.target.value)}}>
+                <option value="EN">English</option>
+                <option value="CN">正體中文</option>
+              </select>
+            </li>
+            
+          </ul>): 
+          
+          // change language ------------------------------------------------------------------------------------------
+          
+          (  <ul className="">
             <li className="">
               <a className="" href="https://www.biostar.com.tw/app/tw/index.php">
               {content._nav_product}
@@ -96,12 +158,15 @@ class Navbar extends Component {
 
             <li className="">
               <select className="_lang_toggle" defaultValue={this.props.language} onChange={(e) => { this.props.setLan(e.target.value)}}>
-                <option value="EN">EN</option>
-                <option value="CN">CH</option>
+                <option value="EN">English</option>
+                <option value="CN">正體中文</option>
               </select>
             </li>
             
-          </ul>
+          </ul>) }
+
+          
+        
         </div>
       </nav>
     );

@@ -163,6 +163,9 @@ class Landing extends Component {
                     <option></option>
                     <option value="website">{content._website}</option>
                     <option value="youtube">{content._yt}</option>
+                    <option value="facebook">{content._fb}</option>
+                    <option value="insta">{content._insta}</option>
+                    <option value="twitter">{content._tw}</option>
                     {/* <option value="instagram">{content._miniitx}</option> */}
                     <option value="other">{content._other}</option>
                   </select>

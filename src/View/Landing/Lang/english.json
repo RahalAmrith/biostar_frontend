@@ -1,5 +1,6 @@
 {
-    "home_main_title" : "GET THE LATEST INFORMATION AND PROMOTIONAL CAMPAIGNS OF UPCOMING BIOSTAR PRODUCTS!", 
+    "_lan_choise" : "English",
+     "home_main_title" : "GET THE LATEST INFORMATION AND PROMOTIONAL CAMPAIGNS OF UPCOMING BIOSTAR PRODUCTS!", 
     "_nav_product" : "Products",
     "_nav_support" : "Support",
     "_nav_news" : "News",
@@ -53,5 +54,7 @@
     "_miniitx" : "Mini-ITX",
     "_website" : "Website",
     "_yt" : "Youtube Channel",
-    "_insta" : "Instagram"
+    "_insta" : "Instagram",
+    "_fb" : "Facebook",
+    "_tw" : "Twitter"
 }

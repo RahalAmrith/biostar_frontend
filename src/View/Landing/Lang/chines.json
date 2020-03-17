@@ -1,4 +1,5 @@
 {
+    "_lan_choise" : "正體中文",
     "home_main_title" : "獲得映泰BIOSTAR的最新產品消息與各類優惠活動訊息!", 
     "_nav_product" : "產品",
     "_nav_support" : "技術支援",
@@ -53,6 +54,7 @@
     "_miniitx" : "Mini-ITX",
     "_website" : "網站",
     "_yt" : "YouTube 頻道",
-    "_insta" : "Instagram"
+    "_insta" : "Instagram",
+    "_tw" : "Twitter"
 
 }
