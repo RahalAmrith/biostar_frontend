@@ -84,7 +84,7 @@ class Navbar extends Component {
             </li>
             <li className="">
               {/* <a className="" href="https://www.biostar.com.tw/app/en/blog/index.php"> */}
-              <a className="" href="https://www.biostar.com.tw/app/en/blog/index.php">
+              <a className="" href="https://biostarblog.wordpress.com/">
               {content._nav_blog}
 
               </a>
@@ -138,7 +138,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li className="">
-              <a className="" href="https://www.biostar.com.tw/app/en/blog/index.php">
+              <a className="" href="https://biostarblog.wordpress.com/">
               {content._nav_blog}
 
               </a>

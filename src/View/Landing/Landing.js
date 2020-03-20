@@ -192,9 +192,6 @@ class Landing extends Component {
         </div>
 
         {/* footer */}
-
-
-
         {/* footer Chines */}
         {this.props.language === 'EN' ? (<div className="container row land_footer">
           <div className="col-md-12">
